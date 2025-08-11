@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Create Your Account - Step 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #d7a6c3, #d4c1b3);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+    .form-container {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 320px;
+      text-align: center;
+    }
+    .form-container h2 {
+      margin: 0 0 5px;
+      font-weight: 600;
+    }
+    .form-container p {
+      margin: 0 0 20px;
+      color: #777;
+    }
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      box-sizing: border-box;
+      color: #555;
+    }
+    input::placeholder {
+      color: #aaa;
+    }
+    button {
+      background-color: #28a745;
+      border: none;
+      color: white;
+      padding: 12px 0;
+      font-size: 16px;
+      width: 100%;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>CREATE YOUR ACCOUNT</h2>
+    <p>This is step 1</p>
+    <form>
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <input type="password" placeholder="Confirm Password" required />
+      <button type="submit">Next</button>
+    </form>
+  </div>
+</body>
+</html>
