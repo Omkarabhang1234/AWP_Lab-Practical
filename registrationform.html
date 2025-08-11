@@ -1,0 +1,147 @@
+<html>
+
+<head>
+    <title>Registration Form HTML</title>
+    <style>
+        body {
+            background-color: rgba(255, 255, 0, 0.768);
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            text-align: center;
+            color: red;
+            font-size: 48px;
+            margin-top: 20px;
+        }
+        
+        .form-box {
+            width: 300px;
+            margin: 20px auto;
+            background-color: yellow;
+            border: 2px solid black;
+            padding: 20px;
+            box-shadow: 4px 4px 6px #888;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        td {
+            padding: 5px;
+            border: 1px solid black;
+        }
+        
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 4px;
+            background-color: #ffff99;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        
+        textarea {
+            height: 40px;
+            resize: none;
+        }
+        
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        
+        input[type="submit"] {
+            width: 100%;
+            background-color: #ccc;
+            border: 1px solid black;
+            padding: 6px;
+            font-weight: bold;
+        }
+        
+        h2 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registration Form HTML</h1>
+    <div class="form-box">
+        <h2>RegistrationForm</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" placeholder="name"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" placeholder="password"></td>
+                </tr>
+                <tr>
+                    <td>DOB:</td>
+                    <td><input type="date" placeholder="DOB"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" placeholder="email"></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea placeholder="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Pincode:</td>
+                    <td><input type="text" placeholder="pincode"></td>
+                </tr>
+                <tr>
+                    <td>Phone no:</td>
+                    <td><input type="text" placeholder="phone no"></td>
+                </tr>
+                <tr>
+                    <td>College:</td>
+                    <td><input type="text" placeholder="college"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender"> male
+                        <input type="radio" name="gender"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobbies:</td>
+                    <td>
+                        <input type="checkbox"> singing
+                        <input type="checkbox"> dancing
+                        <input type="checkbox"> Painting
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td>
+                        <select>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
